@@ -1,0 +1,13 @@
+{
+  "actualizado": "2026-10-19",
+  "productos": [
+    { "id": 1, "nombre": "Camiseta oversize negra", "categoria": "Ropa nueva", "precio": 8500, "descripcion": "Algodón grueso, corte holgado. Estampado pequeño al frente.", "talla": "M", "estado": "nuevo", "stock": 6, "imagen": "https://picsum.photos/seed/kenar-01/800/1000", "ejemplo": true },
+    { "id": 2, "nombre": "Jeans de tiro alto", "categoria": "Ropa usada", "precio": 6000, "descripcion": "Denim firme, en muy buen estado. Pieza única.", "talla": "30", "estado": "usado", "stock": 1, "imagen": "https://picsum.photos/seed/kenar-02/800/1000", "ejemplo": true },
+    { "id": 3, "nombre": "Gorra trucker bordada", "categoria": "Gorras", "precio": 7500, "descripcion": "Malla atrás, cierre ajustable. Bordado frontal.", "talla": "Ajustable", "estado": "nuevo", "stock": 4, "imagen": "https://picsum.photos/seed/kenar-03/800/1000", "ejemplo": true },
+    { "id": 4, "nombre": "Camisa manga corta estampada", "categoria": "Camisas", "precio": 9000, "descripcion": "Tela fresca para el calor, estampado completo.", "talla": "L", "estado": "nuevo", "stock": 3, "imagen": "https://picsum.photos/seed/kenar-04/800/1000", "ejemplo": true },
+    { "id": 5, "nombre": "Llavero personalizado", "categoria": "Llaveros personalizados", "precio": 3500, "descripcion": "Hecho a mano. Elegís el nombre o el texto que lleva.", "talla": "Único", "estado": "nuevo", "stock": 20, "personalizable": true, "imagen": "https://picsum.photos/seed/kenar-05/800/1000", "ejemplo": true },
+    { "id": 6, "nombre": "Tutú de tul infantil", "categoria": "Tutus", "precio": 7000, "descripcion": "Varias capas de tul con elástico forrado.", "talla": "4 años", "estado": "nuevo", "stock": 2, "imagen": "https://picsum.photos/seed/kenar-06/800/1000", "ejemplo": true },
+    { "id": 7, "nombre": "Peluche osito mediano", "categoria": "Peluches", "precio": 6500, "descripcion": "Suave, tamaño mediano. Ideal para regalo.", "talla": "Mediano", "estado": "nuevo", "stock": 2, "imagen": "https://picsum.photos/seed/kenar-07/800/1000", "ejemplo": true },
+    { "id": 8, "nombre": "Sudadera con capucha gris", "categoria": "Ropa nueva", "precio": 13000, "descripcion": "Fleece con capucha y bolsillo canguro.", "talla": "M", "estado": "nuevo", "stock": 5, "imagen": "https://picsum.photos/seed/kenar-08/800/1000", "ejemplo": true }
+  ]
+}
