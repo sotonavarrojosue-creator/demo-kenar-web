@@ -2,21 +2,37 @@
 <html lang="es-CR">
   <head>
     <meta charset="UTF-8" />
-    <!-- Consent Mode v2: todo denegado hasta que la persona acepte (Ley 8968).
+    <!-- Consent Mode v2 — esquema internacional.
+         EEE + Reino Unido + Suiza: analítica denegada hasta que la persona acepte (RGPD).
+         Resto del mundo (incluida Costa Rica): analítica otorgada por defecto, con opt-out en el banner.
          Debe ir ANTES del snippet de GTM. La elección se guarda en localStorage. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { dataLayer.push(arguments); };
+      var REGION_EEE = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'];
       gtag('consent', 'default', {
         ad_storage: 'denied',
         ad_user_data: 'denied',
         ad_personalization: 'denied',
         analytics_storage: 'denied',
+        region: REGION_EEE,
         wait_for_update: 500
       });
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'granted'
+      });
       try {
-        if (localStorage.getItem('kenar_consent_v1') === 'granted') {
-          gtag('consent', 'update', { analytics_storage: 'granted' });
+        var decision = localStorage.getItem('kenar_consent_v1');
+        if (decision === 'granted' || decision === 'denied') {
+          gtag('consent', 'update', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: decision
+          });
         }
       } catch (e) { /* modo privado / localStorage bloqueado */ }
     </script>
@@ -60,7 +76,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/demo-kenar-web/assets/index-DL2l35TU.js"></script>
+    <script type="module" crossorigin src="/demo-kenar-web/assets/index-D2NEwtdU.js"></script>
     <link rel="stylesheet" crossorigin href="/demo-kenar-web/assets/index-B3XuibAk.css">
   </head>
   <body>
