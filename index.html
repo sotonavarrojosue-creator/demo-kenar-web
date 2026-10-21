@@ -2,6 +2,31 @@
 <html lang="es-CR">
   <head>
     <meta charset="UTF-8" />
+    <!-- Consent Mode v2: todo denegado hasta que la persona acepte (Ley 8968).
+         Debe ir ANTES del snippet de GTM. La elección se guarda en localStorage. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+      });
+      try {
+        if (localStorage.getItem('kenar_consent_v1') === 'granted') {
+          gtag('consent', 'update', { analytics_storage: 'granted' });
+        }
+      } catch (e) { /* modo privado / localStorage bloqueado */ }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NHXZSHST');</script>
+    <!-- End Google Tag Manager -->
     <link rel="icon" type="image/png" href="/demo-kenar-web/favicon.png" />
     <link rel="apple-touch-icon" href="/demo-kenar-web/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,10 +60,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/demo-kenar-web/assets/index-DhZ02U2S.js"></script>
-    <link rel="stylesheet" crossorigin href="/demo-kenar-web/assets/index-SaEdgloE.css">
+    <script type="module" crossorigin src="/demo-kenar-web/assets/index-CvueLJx4.js"></script>
+    <link rel="stylesheet" crossorigin href="/demo-kenar-web/assets/index-B3XuibAk.css">
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHXZSHST"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
   </body>
 </html>
