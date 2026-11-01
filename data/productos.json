@@ -220,6 +220,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 9,
+      "nombre": "Body Manga Larga Malla Floral",
+      "categoria": "Ropa nueva",
+      "precio": 7900,
+      "descripcion": "Body elástico de manga larga con vibrante estampado floral y detalle de gota con botón en la espalda. Tela ligera y ajustada al cuerpo.",
+      "talla": "M",
+      "estado": "nuevo",
+      "stock": 2,
+      "imagen": "images/productos/body-manga-larga-malla-floral-mvy8naik.jpg",
+      "personalizable": true,
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/body-manga-larga-malla-floral-3d-50cb411e/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/body-manga-larga-malla-floral-3d-50cb411e/02.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     }
   ]
 }
