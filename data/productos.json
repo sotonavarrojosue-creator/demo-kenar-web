@@ -81,7 +81,7 @@
       "estado": "usado",
       "stock": 1,
       "imagen": "images/productos/vestido-corto-ajustado-camuflaje-con-cor-mvy7truq.jpg",
-      "ejemplo": true,
+      "personalizable": true,
       "vista3d": {
         "modo": "galeria",
         "fotos": [
