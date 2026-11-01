@@ -3,7 +3,7 @@
   "productos": [
     {
       "id": 1,
-      "nombre": "Enagua Short",
+      "nombre": "Enagua Short-Disney",
       "categoria": "Ropa nueva",
       "precio": 8500,
       "descripcion": "Falda Pantalón Coquette de Lunares con Detalle Minnie\nCombina la frescura de una falda ligera con la libertad y seguridad de un short interno. Esta falda pantalón destaca por su estampado clásico de lunares blancos sobre tonos vibrantes, ideal para lograr un estilo juvenil, cómodo y coqueto.",
@@ -36,88 +36,190 @@
     },
     {
       "id": 2,
-      "nombre": "Jeans de tiro alto",
-      "categoria": "Ropa usada",
-      "precio": 6000,
-      "descripcion": "Denim firme, en muy buen estado. Pieza única.",
-      "talla": "30",
-      "estado": "usado",
-      "stock": 1,
-      "imagen": "https://picsum.photos/seed/kenar-02/800/1000",
-      "ejemplo": true
+      "nombre": "Almuadones-Niño y Niña",
+      "categoria": "Peluches",
+      "precio": 6500,
+      "descripcion": "Cojines decorativos con estampado digital HD sobre tela suave y lavable. Ideales para personalizar sillones, camas o espacios gamer.\n\nDiseños disponibles: Hello Kitty, Minecraft, Harry Potter, Goku y Stitch.",
+      "talla": "-",
+      "estado": "nuevo",
+      "stock": 6,
+      "imagen": "images/productos/almuadones-nino-y-nina-mvy7phn8.jpg",
+      "personalizable": true,
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/almuadones-nino-y-nina-3d-4644f119/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/almuadones-nino-y-nina-3d-4644f119/02.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/almuadones-nino-y-nina-3d-4644f119/03.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/almuadones-nino-y-nina-3d-4644f119/04.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/almuadones-nino-y-nina-3d-4644f119/05.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     },
     {
       "id": 3,
-      "nombre": "Gorra trucker bordada",
-      "categoria": "Gorras",
-      "precio": 7500,
-      "descripcion": "Malla atrás, cierre ajustable. Bordado frontal.",
-      "talla": "Ajustable",
-      "estado": "nuevo",
-      "stock": 4,
-      "imagen": "https://picsum.photos/seed/kenar-03/800/1000",
-      "ejemplo": true
+      "nombre": "Vestido Corto Ajustado Camuflaje con Cordones Frontales",
+      "categoria": "Ropa usada",
+      "precio": 6500,
+      "descripcion": "Vestido ajustado al cuerpo (estilo bodycon) de manga larga con estampado camuflado en tonos café y negro. Destaca por su escote frontal con ojales metálicos y cinta cruzada ajustable que resalta la figura.",
+      "talla": "S",
+      "estado": "usado",
+      "stock": 1,
+      "imagen": "images/productos/vestido-corto-ajustado-camuflaje-con-cor-mvy7truq.jpg",
+      "ejemplo": true,
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/vestido-corto-ajustado-camuflaje-con-cor-3d-e47f1418/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/vestido-corto-ajustado-camuflaje-con-cor-3d-e47f1418/02.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     },
     {
       "id": 4,
-      "nombre": "Camisa manga corta estampada",
-      "categoria": "Camisas",
-      "precio": 9000,
-      "descripcion": "Tela fresca para el calor, estampado completo.",
-      "talla": "L",
+      "nombre": "Tutú / Falda de Tul Blanca con Perlas y Lazo Rosa",
+      "categoria": "Tutus",
+      "precio": 8500,
+      "descripcion": "Delicada falda estilo tutú confeccionada en capas de tul blanco con apliques de perlas y forro satinado suave. Incluye pretina elástica rosa pastel con un gran lazo frontal y dije metálico estilo Barbie. Ideal para disfraces, eventos temáticos o sesiones de fotos.",
+      "talla": "4, 6, 8, 12",
       "estado": "nuevo",
-      "stock": 3,
-      "imagen": "https://picsum.photos/seed/kenar-04/800/1000",
-      "ejemplo": true
+      "stock": 6,
+      "imagen": "images/productos/tutu-falda-de-tul-blanca-con-perlas-y-la-mvy7yqbj.jpg",
+      "personalizable": true,
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/tutu-falda-de-tul-blanca-con-perlas-y-la-3d-adfe531d/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/tutu-falda-de-tul-blanca-con-perlas-y-la-3d-adfe531d/02.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     },
     {
       "id": 5,
-      "nombre": "Llavero personalizado",
-      "categoria": "Llaveros personalizados",
-      "precio": 3500,
-      "descripcion": "Hecho a mano. Elegís el nombre o el texto que lleva.",
-      "talla": "Único",
+      "nombre": "Tutú / Falda de Tul Rosa con Perlas y Lazo Barbie",
+      "categoria": "Tutus",
+      "precio": 8500,
+      "descripcion": "Coqueta falda estilo tutú confeccionada en capas de tul rosa pastel con detalles de perlas y forro satinado al tono. Presenta pretina elástica con un llamativo lazo frontal y dije metálico decorativo de Barbie. Perfecta para fiestas temáticas, disfraces o sesiones de fotos.",
+      "talla": "4, 6, 8, 12",
       "estado": "nuevo",
-      "stock": 20,
+      "stock": 6,
       "personalizable": true,
-      "imagen": "https://picsum.photos/seed/kenar-05/800/1000",
-      "ejemplo": true
+      "imagen": "images/productos/tutu-falda-de-tul-rosa-con-perlas-y-lazo-mvy82nd6.jpg",
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/tutu-falda-de-tul-rosa-con-perlas-y-lazo-3d-7ca8eb85/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/tutu-falda-de-tul-rosa-con-perlas-y-lazo-3d-7ca8eb85/02.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     },
     {
       "id": 6,
-      "nombre": "Tutú de tul infantil",
-      "categoria": "Tutus",
-      "precio": 7000,
-      "descripcion": "Varias capas de tul con elástico forrado.",
-      "talla": "4 años",
+      "nombre": "Blusa Rayada \"Snoopy\" con Lentejuelas",
+      "categoria": "Camisas",
+      "precio": 6900,
+      "descripcion": "Blusa entallada de manga corta con patrón de rayas horizontales rojas y blancas. Destaca por su estampado frontal con detalles brillantes en lentejuelas y la frase \"Souls Free\". Confeccionada en tela elástica y fresca, ideal para un estilo casual y juvenil.",
+      "talla": "M",
       "estado": "nuevo",
-      "stock": 2,
-      "imagen": "https://picsum.photos/seed/kenar-06/800/1000",
-      "ejemplo": true
+      "stock": 1,
+      "imagen": "images/productos/blusa-rayada-souls-free-con-lentejuelas-mvy85iy3.jpg",
+      "personalizable": true,
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/blusa-rayada-snoopy-con-lentejuelas-3d-475b4933/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/blusa-rayada-snoopy-con-lentejuelas-3d-475b4933/02.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     },
     {
       "id": 7,
-      "nombre": "Peluche osito mediano",
-      "categoria": "Peluches",
-      "precio": 6500,
-      "descripcion": "Suave, tamaño mediano. Ideal para regalo.",
-      "talla": "Mediano",
+      "nombre": "Blusa Rayada Negra y Blanca \"Snoopy\" con Lentejuelas",
+      "categoria": "Camisas",
+      "precio": 6900,
+      "descripcion": "Blusa entallada de manga corta con patrón de rayas horizontales en blanco y negro. Incluye gráfico frontal de siluetas con detalles acentuados en lentejuelas negras y un lazo rojo brillante, acompañado de la frase \"Souls Free\". Confeccionada en tela elástica, fresca y cómoda.",
+      "talla": "L",
       "estado": "nuevo",
-      "stock": 2,
-      "imagen": "https://picsum.photos/seed/kenar-07/800/1000",
-      "ejemplo": true
+      "stock": 1,
+      "imagen": "images/productos/blusa-rayada-negra-y-blanca-snoopy-con-l-mvy8arhp.jpg",
+      "personalizable": true,
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/blusa-rayada-negra-y-blanca-snoopy-con-l-3d-b1aa9ef3/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/blusa-rayada-negra-y-blanca-snoopy-con-l-3d-b1aa9ef3/02.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     },
     {
       "id": 8,
-      "nombre": "Sudadera con capucha gris",
+      "nombre": "Poncho Toalla Infantil con Capucha de Tiburón",
       "categoria": "Ropa nueva",
-      "precio": 13000,
-      "descripcion": "Fleece con capucha y bolsillo canguro.",
-      "talla": "M",
+      "precio": 4900,
+      "descripcion": "Toalla poncho con capucha divertida de tiburón y diseño marino. Suave, absorbente e ideal para playa o piscina.",
+      "talla": "1 a 4 años",
       "estado": "nuevo",
-      "stock": 5,
-      "imagen": "https://picsum.photos/seed/kenar-08/800/1000",
-      "ejemplo": true
+      "stock": 1,
+      "imagen": "images/productos/poncho-toalla-infantil-con-capucha-de-ti-mvy8gv8v.jpg",
+      "personalizable": true,
+      "vista3d": {
+        "modo": "galeria",
+        "fotos": [
+          {
+            "src": "images/productos/poncho-toalla-infantil-con-capucha-de-ti-3d-bc287214/01.webp",
+            "etiqueta": ""
+          },
+          {
+            "src": "images/productos/poncho-toalla-infantil-con-capucha-de-ti-3d-bc287214/02.webp",
+            "etiqueta": ""
+          }
+        ]
+      }
     }
   ]
 }
